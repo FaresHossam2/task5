@@ -1,0 +1,117 @@
+#container {
+    width: 500px;
+    height: auto;
+    border: solid 3px  rgb(0, 170, 193);
+    margin:20px;
+    margin-left: 450px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    transition: 0.1s;
+    background-color: rgb(0, 152, 194);
+    width: 50%;
+    height: 50px;
+    margin-left: 350px;
+    border-radius: 25px;
+    padding: 2px 2px 5px;
+    
+
+}
+
+nav ul :hover {
+    color: yellow;
+    transform: scale(0.9);
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    margin: 15px;
+    margin-top: 25px;
+    padding: 15px;
+    color: rgb(7, 7, 7);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+#content {
+   
+   margin: 10px;
+}
+
+
+img{
+    width: 300px;
+    margin-left: 85px;
+}
+label{
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+input{
+    width: 400px;
+    height: 50px;
+    border: 3px aliceblue;
+    box-shadow: 0 5px 15px  rgb(99, 141, 255);
+    margin: 15px 15px 15px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px 5px 5px 10px;
+  
+}
+#btn{
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    border: rgb(77, 152, 217) 1px solid;
+    box-shadow: 0 5px 15px  rgb(64, 91, 163);
+    background-color: rgb(16, 76, 101);
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: aliceblue;
+    margin-left: 90px;
+    
+
+}
+#btn:hover{
+    background-color:yellow;
+    color: black;
+    border: rgb(255, 255, 255) 1px solid;
+}
+::placeholder{
+    padding:30px 30px 30px 5px;
+   
+    font-size: 20px;
+   
+}
+
+#out{
+    
+   
+   
+    font-size: 20px;
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
